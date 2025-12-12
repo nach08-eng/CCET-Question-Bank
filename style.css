@@ -166,7 +166,7 @@ html{
     .img_cont img {
         width: 50px !important;
         height: 50px !important;
-        margin: 10px -370px 0 -15px !important;
+        margin: 10px -360px 0 -15px !important;
     }
 
     #chat-popup {
@@ -590,4 +590,5 @@ button#home-button:hover+.home-content {
     border: none;
 
 }
+
 
