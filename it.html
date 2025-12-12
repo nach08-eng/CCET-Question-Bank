@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Course Details</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #024A6E;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #024A6E;
+    }
+
+    #it {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: #2c2c2c;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 255,255, 0.1);
+    color: #ffffff;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    transition: transform 0.3s ease;
+    }
+
+    a {
+      color: #00caff;
+    }
+  </style>
+</head>
+
+<body>
+    <h1 class="main-heading">Question Bank For All Courses</h1>
+    <h2 class="sub-heading">Affiliated By Anna University</h2>
+    <hr class="one">
+    <div id="home">
+        <button id="home-button"> <a href="index.html">HOME</a></button>
+    </div>  
+  <h1>Information Technology (IT)</h1>
+
+  <section id="it">
+    <h2>Information Technology (IT)</h2>
+    <p>IT course emphasizes software development, databases, networks, cybersecurity, and IT infrastructure.</p>
+  </section>
+
+  <section id="it">
+    <h2>Previous Year Questions</h2>
+    <p>Unit-wise and topic-wise Anna University question papers are available from 2019 to 2024.</p>
+    <p>For PDFs ➡ <a href="it2.html"> Click here</a> </p>
+  </section>
+
+  <section id="it">
+    <h2>Notes</h2>
+    <p>Lecture notes and handwritten notes are available for download. </p>
+    <p>For PDFs ➡ Scroll down in the Notes Section</p>
+  </section>
+  <a href="index.html" class="back-home">
+  <i class="fa-solid fa-house-chimney"></i></a>
+
+
+  <script>
+            // Disable right-click
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable right-click with an alert
+document.addEventListener('contextmenu', function(e) {
+  alert("Sorry, right click is disabled!");
+  e.preventDefault();
+});
+
+// Disable specific keyboard shortcuts
+document.onkeydown = function(e) {
+  if (e.keyCode == 123) { // Disable F12
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Disable Ctrl+Shift+I
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { // Disable Ctrl+Shift+C
+    return false;
+  }
+  if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { // Disable Ctrl+Shift+J
+    return false;
+  }
+  if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Disable Ctrl+U
+    return false;
+  }
+  if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) { // Disable Ctrl+S
+    return false;
+  }
+};
+
+</script>
+</body>
+
+</html>
