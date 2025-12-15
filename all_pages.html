@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Resources | StudyHub</title>
+    <!-- Google Fonts: Outfit for a modern, tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .category-title {
+            color: var(--secondary-color);
+            margin: 40px 0 20px;
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 10px;
+            width: 100%;
+        }
+
+        /* Adjust grid for smaller items if needed */
+        .cards-grid {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Canvas for Particles -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-nav fade-in-down">
+        <div class="logo">
+            <img src="https://yt3.googleusercontent.com/ytc/AGIKgqMlSuuNeyOL8GJ8UOKPhPaBwxwTtFmYvO4iwXK1=s900-c-k-c0x00ffffff-no-rj"
+                class="rounded-circle user_img"
+                style="width: 50px; height: 50px; margin: 0px 20px 0px -0px; border-radius:20%;">
+            <span><span class="highlight"> STUDYHUB</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="index.html#courses" target="_blank">Courses</a></li>
+            <li><a href="index.html#syllabus" target="_blank">Syllabus</a></li>
+            <li><a href="all_pages.html" class="active">All Pages</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="section container" style="padding-top: 120px;">
+
+        <div class="page-header fade-in-up">
+            <h1 class="main-heading">Site Map & Previous Year Question Papers and Notes</h1>
+            <br><p class="section-subtitle">Quick access to Question banks and Notes</p>
+        </div>
+
+        <div class="fade-in-up delay-1">
+
+            <h2 class="category-title">Main</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-house"></i></div>
+                    <h2>Home Page</h2>
+                    <p>Main landing page with overview and navigation.</p>
+                    <a href="index.html" target="_blank" class="card-link">Visit <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Artificial Intelligence & Data Science (AI & DS)</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-brain"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="index.html#syllabus" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-database"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="ai_ds2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Information Technology (IT)</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-network-wired"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="it.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-server"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="it2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Computer Science Engineering (CSE)</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="cse.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="CSE2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Electronics and Communication Engineering (ECE)</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="ece.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-tower-broadcast"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="ece2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Electrical and Electronics Engineering (EEE)</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-bolt"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025.</p>
+                    <a href="eee.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-plug"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="eee2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Civil Engineering</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-building"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="civil.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-hard-hat"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="civil2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <h2 class="category-title">Mechanical Engineering</h2>
+            <div class="cards-grid">
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-gears"></i></div>
+                    <h2>Syllabus</h2>
+                    <p>Syllabus for regulation 2021 and regulation 2025</p>
+                    <a href="mechanical.html" target="_blank" class="card-link">View Details <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="glass-card antigravity-hover">
+                    <div class="icon-box"><i class="fa-solid fa-wrench"></i></div>
+                    <h2>Question Bank</h2>
+                    <p>Previous year questions (Sem 1-8).</p>
+                    <a href="mechanical2.html" target="_blank" class="card-link">View PDFs <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <div style="text-align: center; margin-top: 50px;">
+            <a href="index.html" class="btn btn-contact glass-btn">
+                <i class="fa-solid fa-house-chimney"></i> Back to Home
+            </a>
+        </div>
+    </section>
+
+     <!-- Chatbot Button (Reuse from index) -->
+    <a href="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2025/12/13/09/20251213095440-FZST4JRU.json"
+        target="_blank" class="chat-toggle-btn">
+        <i class="fa-solid fa-robot"></i>
+    </a>
+    
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Disable right-click
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+            alert("Sorry, right click is disabled!");
+        });
+    </script>
+</body>
+
+</html>

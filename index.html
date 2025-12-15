@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontsawsome.com/070428bd88.js" crossorigin="anonymous"></script>
+    <title>StudyHub</title>
+    <meta name="description"
+        content="Premium question banks, notes, syllabus, and lab manuals for Anna University engineering students.">
+           <!-- Google Fonts: Outfit for a modern, tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+        }
+
+        .img_cont {
+            position: relative;
+            height: 70px;
+            width: 70px;
+        }
+
+        .user_info {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Background Canvas for Particles -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="glass-nav fade-in-down">
+        <div class="logo">
+            <img src="https://yt3.googleusercontent.com/ytc/AGIKgqMlSuuNeyOL8GJ8UOKPhPaBwxwTtFmYvO4iwXK1=s900-c-k-c0x00ffffff-no-rj"
+                class="rounded-circle user_img" style="width: 50px; height: 50px; margin: 0px 20px 0px -0px; border-radius:20%;">
+            <span><span class="highlight"> STUDYHUB</span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#purpose">Purpose</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#syllabus">Question Bank</a></li>
+            <li><a href="#contact" class="btn-contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero section">
+        <div class="hero-content antigravity-float">
+            
+            <div class="badge fade-in-up">STUDYHUB</div>
+                <h1 class="fade-in-up delay-1"><span class="text-gradient">CHENDHURAN</span> <br> College Of Engineering And Technology</h1>
+                <h3 style="font-size:20px; margin-left:35px">Lenavilaku (Po) , Pulivalam , Pudukkottai(DT). Pincode: 622 507.</h3>
+                <br> <p class="fade-in-up delay-2">Access comprehensive Question banks, High-quality Notes, and Exam Resources
+                designed Engineering Students.</p>
+            <div class="cta-group fade-in-up delay-3">
+                <a href="all_pages.html" target="_blank" class="btn btn-primary glass-btn">Access Question Bank <i
+                        class="fa-solid fa-arrow-right"></i></a>
+                <a href="#syllabus" class="btn btn-secondary glass-btn">View Syllabus</a>
+            </div>
+        </div>
+        <!-- Decorative Elements -->
+        <div class="glass-orb orb-1"></div>
+        <div class="glass-orb orb-2"></div>
+    </header>
+
+        <!-- Resources Section -->
+    <section id="about" class="resources section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">About Us</h2>
+            <p class="section-subtitle fade-in-up"></p>
+
+            <div class="cards-grid">
+                        <!--Card1: Welcome -->
+                <div class="glass-card antigravity-hover fade-in-up delay-1">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-handshake"></i> <!-- Represents greeting or welcoming -->
+                    </div>
+                    <h2>Welcome to StudyHub! ✨</h2>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;This site provides resources for students to excel  Anna University Notes, Important Questions, Study Material and Lab Records.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Curated collection of Unit-wise Important questions.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Explore the Syllabus, Question Bank and Can Download Semester Question paper PDF for various engineering disciplines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="purpose" class="resources section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Purpose</h2>
+            <p class="section-subtitle fade-in-up">Purpose of the site and Course Details</p>
+
+            <div class="cards-grid">
+                    <!--Card1: Purpose -->
+                <div class="glass-card antigravity-hover fade-in-up delay-2">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-bullseye"></i> <!-- Represents purpose, goal, or focus -->
+                    </div>
+                    <h3>Purpose:</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; To clear and secure good marks in all papers. </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; To easily clear arrear papers. </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; To gather Previous Year Question Papers, Notes. </p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; Simplified, high-quality handwritten and digital notes covering the entire syllabus.</p>
+                </div>
+
+                <!-- Card 2: Encompasses -->
+                <div class="glass-card antigravity-hover fade-in-up delay-3">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-globe"></i> <!-- Represents inclusivity or global coverage -->
+                    </div>
+                    <h3>Encompasses:</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; It includes Syllabus.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; It includes Previous Year Question Papers.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp; It includes Hand Written Notes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Courses Section -->
+    <section id="courses" class="resources section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Courses</h2>
+            <p class="section-subtitle fade-in-up">The Question Banks and Notes are available for below Courses.</p>
+            <div class="cards-grid">
+                <!-- Card 3:  Courses -->
+                <div class="glass-card antigravity-hover fade-in-up delay-3">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-book-open"></i> <!-- Represents educational content or courses -->
+                    </div>
+                    <h3>Courses:</h3>
+                    <p>1. B.Tech</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;AI&DS</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;IT</p>
+                    <p>2. B.E</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;CSE</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;ECE</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;EEE</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Civil Engineering</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Mechanical Engineering</p>
+                </div>
+                
+                <!-- Card 4: Departments -->
+                <div class="glass-card antigravity-hover fade-in-up delay-4">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-book-open"></i> <!-- Represents educational content or courses -->
+                    </div>
+                    <h3>Departments:</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;1. Artificial Intelligence & Data Science (AI & DS)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;2. Information Technology (IT)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;3. Computer Science Engineering (CSE)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;4. Electronics and Communication Engineering (ECE)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;5. Electronics And Electronics Engineering (EEE)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;6. Civil Engineering</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;7. Mechanical Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Resources Section -->
+    <section id="syllabus" class="resources section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Essential Resources</h2>
+            <p class="section-subtitle fade-in-up">Everything you need to ace your semesters</p>
+
+            <div class="cards-grid">
+                <!-- Card 1: Regulation-->
+                <div class="glass-card antigravity-hover fade-in-up delay-1">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Syllabus</h3>
+                    <h4>&nbsp;&nbsp;&nbsp;&nbsp;For Regulation 2021</h4>
+                    <br><a href="syllabus.html"  target="_blank" class="card-link">Explore <i class="fa-solid fa-chevron-right"></i></a>
+                    <br><br><h4>&nbsp;&nbsp;&nbsp;&nbsp;For Regulation 2025</h4>
+                    <br><a href="syllabus 2.html" target="_blank" class="card-link">Explore <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <!-- Card 2: Courses -->
+                <div class="glass-card antigravity-hover fade-in-up delay-2">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3>Previous Year Questions</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Unit-wise and topic-wise Anna University question papers are available from 2019 to 2024.</p>
+                    <a href="all_pages.html" target="_blank" class="card-link">For PDFs <i class="fa-solid fa-chevron-right"></i></a>
+                    <br>
+                    <h3>Notes</h3>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-circle-check" style="color: #32d9fb;"></i>&nbsp;Lecture notes and handwritten notes are available for download.</p>
+                    <a href="all_pages.html" target="_blank" class="card-link">For PDFs <i class="fa-solid fa-chevron-right"></i></a>
+                    <p><br>➡ Scroll down in the Notes Section.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Get in Touch</h2>
+            <p class="section-subtitle fade-in-up">Have a questions?&nbsp;&nbsp; We'd love to hear from you.</p>
+            <div class="contact-form-container fade-in-up delay-1">             
+            
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" placeholder="Write your message here..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                        
+                    
+                        <a href="mailto:nachammaisubbu2006@gmail.com">Send Message <i class="fa-solid fa-paper-plane"></i></a>
+                    </button>
+                    <br><br><div class="contact-info">
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/nachammai-s-2983a1328/?originalSubdomain=in" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/nach08-eng/" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            
+                </form>
+            </div>
+        </div>
+    </section>
+    
+ 
+       <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Chendhuran College of Engineering & Technology. Built for Engineers.</p>
+            <p>All rights reserved.</p> 
+            <br><p>Created by Nachammai.S, Department of AI&DS</p>
+        </div>
+    </footer>
+
+
+    <!-- Chatbot Button (Simple Link) -->
+    <a href="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2025/12/13/09/20251213095440-FZST4JRU.json"
+        target="_blank" class="chat-toggle-btn">
+        <i class="fa-solid fa-robot"></i>
+    </a>
+
+           <!-- Chatbot Toggle Button
+            <div id="chat-toggle-btn">
+                💬
+            </div>
+
+                 Chatbot Popup Window 
+            <div id="chat-popup">
+                <iframe src="chatbot.html" id="chat-iframe"></iframe>
+            </div>
+            <script>
+                const button = document.getElementById('home-button');
+                const content = document.getElementById('home-content');
+
+                button.addEventListener('click', () => {
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'block';
+                    } else {
+                        content.style.display = 'none';
+                    }
+                });
+
+                
+                document.getElementById("chat-toggle-btn").onclick = function () {
+                     const popup = document.getElementById("chat-popup");
+                     popup.style.display = (popup.style.display === "block") ? "none" : "block";
+                    };
+            </script> -->
+        <script>
+            // Disable right-click
+                document.addEventListener('contextmenu', function(e) {
+                 e.preventDefault();
+                });
+
+            // Disable right-click with an alert
+                document.addEventListener('contextmenu', function(e) {
+                 alert("Sorry, right click is disabled!");
+                e.preventDefault();
+            });
+
+            // Disable specific keyboard shortcuts
+            document.onkeydown = function(e) {
+            if (e.keyCode == 123) { // Disable F12
+            return false;
+           }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Disable Ctrl+Shift+I
+            return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { // Disable Ctrl+Shift+C
+            return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { // Disable Ctrl+Shift+J
+            return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Disable Ctrl+U
+            return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) { // Disable Ctrl+S
+            return false;
+            }
+            };
+
+        </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
