@@ -120,11 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-
-
-
-    
-        // Contact Form Logic
+// Contact Form Logic
     const contactForm = document.getElementById('contact-form');
 
     if (contactForm) {
@@ -137,13 +133,25 @@ document.addEventListener('DOMContentLoaded', () => {
             const subject = this.querySelector('input[name="subject"]').value;
             const message = this.querySelector('textarea[name="message"]').value;
 
-            // Construct Mailto Link
+            // Recipient
             const recipient = "nachammaisubbu2006@gmail.com";
-            const emailSubject = `Contact Form: ${subject}`;
-            const emailBody = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
 
-            // Open Email Client
-            window.location.href = `mailto:${recipient}?subject=${emailSubject}&body=${emailBody}`;
+            // Gmail Subject & Body
+            const emailSubject = `Contact Form: ${subject}`;
+            const emailBody =
+                `Name: ${name}\n` +
+                `Email: ${email}\n\n` +
+                `Message:\n${message}`;
+
+            // Gmail Compose URL
+            const gmailURL =
+                "https://mail.google.com/mail/?view=cm&fs=1" +
+                "&to=" + encodeURIComponent(recipient) +
+                "&su=" + encodeURIComponent(emailSubject) +
+                "&body=" + encodeURIComponent(emailBody);
+
+            // Open Gmail in new tab
+            window.open(gmailURL, "_blank");
         });
     }
 
@@ -163,5 +171,6 @@ document.addEventListener('DOMContentLoaded', () => {
             behavior: 'smooth'
         });
     });
+
 
 });
